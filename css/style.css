@@ -1,0 +1,108 @@
+/*import*/
+
+body {
+
+    background-color: #ced6f0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.section1 {
+    padding: 50px;
+    margin: 50px;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 700px;
+    border-radius: 12px;
+}
+
+.divIcono {
+    padding: 0;
+    margin: 0;
+    width: 280px;
+    text-align: right;
+}
+
+.icon {
+    color: blue;
+}
+
+.h1 {
+    padding: 0;
+    margin-top: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.p {
+    color: rgb(99, 99, 99);
+    text-align: left;
+}
+
+.hr {
+    color: rgb(240, 238, 238);
+}
+
+.divForm {
+    padding: 0;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+}
+
+label {
+    text-align: left;
+    font-size: 15px;
+    color: #333;
+    font-weight: 550;
+}
+
+input {
+    padding: 10px;
+    width: 310px;
+    font-size: 12px;
+    box-shadow: 1px 1px rgb(246, 246, 246);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 330px;
+    background-color: rgb(64, 64, 241);
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
